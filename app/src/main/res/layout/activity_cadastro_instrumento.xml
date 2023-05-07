@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="80px"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="50px"
+        android:text="Cadastrar novo instrumento"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="70px"
+        android:textColor="#050505"
+        android:layout_marginBottom="20px"/>
+
+    <TextView
+        android:id="@+id/textCadIns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Instrumento:" />
+
+    <EditText
+        android:id="@+id/textCadIns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textCadIns3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:" />
+
+    <EditText
+        android:id="@+id/textCadIns4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textCadIns5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Modelo:" />
+
+    <EditText
+        android:id="@+id/textCadIns6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/textCadIns7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Marca:" />
+
+    <EditText
+        android:id="@+id/ttextCadIns8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textCadIns10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Setor" />
+
+    <EditText
+        android:id="@+id/ttextCadIns12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textCadIns13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Responsável" />
+
+    <EditText
+        android:id="@+id/ttextCadIns14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btGravar2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0097A7"
+        android:text="Salvar Dados"
+        android:textAlignment="center" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="80px"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90px"
+        android:layout_marginBottom="120px"
+        android:text="Pesquisar instrumento:" />
+
+    <Button
+        android:id="@+id/btinstrumento2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0097A7"
+        android:text="Paquímetro 1280"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btinstrumento1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0097A7"
+        android:text="Paquímetro 1101"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0097A7"
+        android:text="Relógio comparador 2020"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btinstnovo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7ed552"
+        android:text="Cadastrar novo instrumento"
+        android:textAlignment="center" />
+
+</LinearLayout>

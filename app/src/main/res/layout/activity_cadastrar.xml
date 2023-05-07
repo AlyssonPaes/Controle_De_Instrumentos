@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="80px"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="80px"
+        android:text="Cadastrar novo usuário"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="100px"
+        android:textColor="#050505"
+        />
+
+    <TextView
+        android:id="@+id/textCad1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/txtCadEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textCad2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha" />
+
+    <EditText
+        android:id="@+id/txtCadSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textCad3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite a senha novamente" />
+
+    <EditText
+        android:id="@+id/txtCadConfSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textCad4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF" />
+
+    <EditText
+        android:id="@+id/txtCadCPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+
+    <Button
+        android:id="@+id/btGravar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0097A7"
+        android:text="Salvar Dados"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
